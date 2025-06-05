@@ -18,7 +18,7 @@ jobs:
 
       - name: Install Salesforce CLI and Delta Plugin
         run: |
-          npm install --global sfdx-cli
+          npm install --global sf-cli
           sfdx plugins:install sfdx-git-delta
 
       - name: Create delta packages for new, modified or deleted metadata
